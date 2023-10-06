@@ -11,6 +11,16 @@
 		0E22B7892ACF77CC00618E9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7882ACF77CC00618E9B /* ContentView.swift */; };
 		0E22B78B2ACF77CD00618E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B78A2ACF77CD00618E9B /* Assets.xcassets */; };
 		0E22B78E2ACF77CD00618E9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B78D2ACF77CD00618E9B /* Preview Assets.xcassets */; };
+		0E22B7972ACF79DD00618E9B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7962ACF79DD00618E9B /* MainView.swift */; };
+		0E22B7992ACF7A1300618E9B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7982ACF7A1300618E9B /* MainViewModel.swift */; };
+		0E22B79C2ACF7A4F00618E9B /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B79B2ACF7A4F00618E9B /* DevicesView.swift */; };
+		0E22B79E2ACF7A6F00618E9B /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B79D2ACF7A6F00618E9B /* DevicesViewModel.swift */; };
+		0E22B7A12ACF7AB000618E9B /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7A02ACF7AB000618E9B /* DeviceView.swift */; };
+		0E22B7A32ACF7AD100618E9B /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7A22ACF7AD100618E9B /* DeviceViewModel.swift */; };
+		0E22B7A62ACF7B0800618E9B /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7A52ACF7B0800618E9B /* BluetoothManager.swift */; };
+		0E22B7A92ACF7B4300618E9B /* Set+Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7A82ACF7B4300618E9B /* Set+Cancellable.swift */; };
+		0E22B7AB2ACF81DE00618E9B /* StripeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7AA2ACF81DE00618E9B /* StripeState.swift */; };
+		0E22B7AD2ACF820200618E9B /* StripeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B7AC2ACF820200618E9B /* StripeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		0E22B7882ACF77CC00618E9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E22B78A2ACF77CD00618E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E22B78D2ACF77CD00618E9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E22B7962ACF79DD00618E9B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0E22B7982ACF7A1300618E9B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0E22B79B2ACF7A4F00618E9B /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		0E22B79D2ACF7A6F00618E9B /* DevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
+		0E22B7A02ACF7AB000618E9B /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		0E22B7A22ACF7AD100618E9B /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		0E22B7A52ACF7B0800618E9B /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		0E22B7A82ACF7B4300618E9B /* Set+Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set+Cancellable.swift"; sourceTree = "<group>"; };
+		0E22B7AA2ACF81DE00618E9B /* StripeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeState.swift; sourceTree = "<group>"; };
+		0E22B7AC2ACF820200618E9B /* StripeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,9 @@
 		0E22B7852ACF77CC00618E9B /* BluetoothTest */ = {
 			isa = PBXGroup;
 			children = (
+				0E22B7A72ACF7B2700618E9B /* Extensions */,
+				0E22B7A42ACF7AEF00618E9B /* Models */,
+				0E22B7942ACF79A000618E9B /* Views */,
 				0E22B7862ACF77CC00618E9B /* BluetoothTestApp.swift */,
 				0E22B7882ACF77CC00618E9B /* ContentView.swift */,
 				0E22B78A2ACF77CD00618E9B /* Assets.xcassets */,
@@ -65,6 +88,61 @@
 				0E22B78D2ACF77CD00618E9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E22B7942ACF79A000618E9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B79F2ACF7A8B00618E9B /* Device */,
+				0E22B79A2ACF7A3A00618E9B /* Devices */,
+				0E22B7952ACF79BC00618E9B /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E22B7952ACF79BC00618E9B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B7962ACF79DD00618E9B /* MainView.swift */,
+				0E22B7982ACF7A1300618E9B /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E22B79A2ACF7A3A00618E9B /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B79B2ACF7A4F00618E9B /* DevicesView.swift */,
+				0E22B79D2ACF7A6F00618E9B /* DevicesViewModel.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		0E22B79F2ACF7A8B00618E9B /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B7A02ACF7AB000618E9B /* DeviceView.swift */,
+				0E22B7A22ACF7AD100618E9B /* DeviceViewModel.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		0E22B7A42ACF7AEF00618E9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B7A52ACF7B0800618E9B /* BluetoothManager.swift */,
+				0E22B7AA2ACF81DE00618E9B /* StripeState.swift */,
+				0E22B7AC2ACF820200618E9B /* StripeData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E22B7A72ACF7B2700618E9B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B7A82ACF7B4300618E9B /* Set+Cancellable.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +216,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E22B7892ACF77CC00618E9B /* ContentView.swift in Sources */,
+				0E22B79C2ACF7A4F00618E9B /* DevicesView.swift in Sources */,
+				0E22B7972ACF79DD00618E9B /* MainView.swift in Sources */,
+				0E22B7A12ACF7AB000618E9B /* DeviceView.swift in Sources */,
+				0E22B7A32ACF7AD100618E9B /* DeviceViewModel.swift in Sources */,
+				0E22B7A92ACF7B4300618E9B /* Set+Cancellable.swift in Sources */,
 				0E22B7872ACF77CC00618E9B /* BluetoothTestApp.swift in Sources */,
+				0E22B79E2ACF7A6F00618E9B /* DevicesViewModel.swift in Sources */,
+				0E22B7AD2ACF820200618E9B /* StripeData.swift in Sources */,
+				0E22B7A62ACF7B0800618E9B /* BluetoothManager.swift in Sources */,
+				0E22B7AB2ACF81DE00618E9B /* StripeState.swift in Sources */,
+				0E22B7992ACF7A1300618E9B /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +358,7 @@
 				DEVELOPMENT_TEAM = 6B676QFWFA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +388,7 @@
 				DEVELOPMENT_TEAM = 6B676QFWFA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
